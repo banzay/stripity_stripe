@@ -1,0 +1,36 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Authorization": "Bearer STRIPE_SECRET_KEY",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Stripe/v1 stripity-stripe/1.4.0"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.stripe.com/v1/country_specs/US"
+    },
+    "response": {
+      "body": "{\n  \"id\": \"US\",\n  \"object\": \"country_spec\",\n  \"default_currency\": \"usd\",\n  \"supported_bank_account_currencies\": {\n    \"usd\": [\n      \"US\"\n    ]\n  },\n  \"supported_payment_currencies\": [\n    \"usd\",\n    \"aed\",\n    \"afn\",\n    \"all\",\n    \"amd\",\n    \"ang\",\n    \"aoa\",\n    \"ars\",\n    \"aud\",\n    \"awg\",\n    \"azn\",\n    \"bam\",\n    \"bbd\",\n    \"bdt\",\n    \"bgn\",\n    \"bif\",\n    \"bmd\",\n    \"bnd\",\n    \"bob\",\n    \"brl\",\n    \"bsd\",\n    \"bwp\",\n    \"bzd\",\n    \"cad\",\n    \"cdf\",\n    \"chf\",\n    \"clp\",\n    \"cny\",\n    \"cop\",\n    \"crc\",\n    \"cve\",\n    \"czk\",\n    \"djf\",\n    \"dkk\",\n    \"dop\",\n    \"dzd\",\n    \"egp\",\n    \"etb\",\n    \"eur\",\n    \"fjd\",\n    \"fkp\",\n    \"gbp\",\n    \"gel\",\n    \"gip\",\n    \"gmd\",\n    \"gnf\",\n    \"gtq\",\n    \"gyd\",\n    \"hkd\",\n    \"hnl\",\n    \"hrk\",\n    \"htg\",\n    \"huf\",\n    \"idr\",\n    \"ils\",\n    \"inr\",\n    \"isk\",\n    \"jmd\",\n    \"jpy\",\n    \"kes\",\n    \"kgs\",\n    \"khr\",\n    \"kmf\",\n    \"krw\",\n    \"kyd\",\n    \"kzt\",\n    \"lak\",\n    \"lbp\",\n    \"lkr\",\n    \"lrd\",\n    \"lsl\",\n    \"ltl\",\n    \"mad\",\n    \"mdl\",\n    \"mga\",\n    \"mkd\",\n    \"mmk\",\n    \"mnt\",\n    \"mop\",\n    \"mro\",\n    \"mur\",\n    \"mvr\",\n    \"mwk\",\n    \"mxn\",\n    \"myr\",\n    \"mzn\",\n    \"nad\",\n    \"ngn\",\n    \"nio\",\n    \"nok\",\n    \"npr\",\n    \"nzd\",\n    \"pab\",\n    \"pen\",\n    \"pgk\",\n    \"php\",\n    \"pkr\",\n    \"pln\",\n    \"pyg\",\n    \"qar\",\n    \"ron\",\n    \"rsd\",\n    \"rub\",\n    \"rwf\",\n    \"sar\",\n    \"sbd\",\n    \"scr\",\n    \"sek\",\n    \"sgd\",\n    \"shp\",\n    \"sll\",\n    \"sos\",\n    \"srd\",\n    \"std\",\n    \"svc\",\n    \"szl\",\n    \"thb\",\n    \"tjs\",\n    \"top\",\n    \"try\",\n    \"ttd\",\n    \"twd\",\n    \"tzs\",\n    \"uah\",\n    \"ugx\",\n    \"uyu\",\n    \"uzs\",\n    \"vnd\",\n    \"vuv\",\n    \"wst\",\n    \"xaf\",\n    \"xcd\",\n    \"xof\",\n    \"xpf\",\n    \"yer\",\n    \"zar\",\n    \"zmw\"\n  ],\n  \"supported_payment_methods\": [\n    \"alipay\",\n    \"card\",\n    \"stripe\"\n  ],\n  \"verification_fields\": {\n    \"individual\": {\n      \"minimum\": [\n        \"external_account\",\n        \"legal_entity.address.city\",\n        \"legal_entity.address.line1\",\n        \"legal_entity.address.postal_code\",\n        \"legal_entity.address.state\",\n        \"legal_entity.dob.day\",\n        \"legal_entity.dob.month\",\n        \"legal_entity.dob.year\",\n        \"legal_entity.first_name\",\n        \"legal_entity.last_name\",\n        \"legal_entity.ssn_last_4\",\n        \"legal_entity.type\",\n        \"tos_acceptance.date\",\n        \"tos_acceptance.ip\"\n      ],\n      \"additional\": [\n        \"legal_entity.personal_id_number\",\n        \"legal_entity.verification.document\"\n      ]\n    },\n    \"company\": {\n      \"minimum\": [\n        \"external_account\",\n        \"legal_entity.address.city\",\n        \"legal_entity.address.line1\",\n        \"legal_entity.address.postal_code\",\n        \"legal_entity.address.state\",\n        \"legal_entity.business_name\",\n        \"legal_entity.business_tax_id\",\n        \"legal_entity.dob.day\",\n        \"legal_entity.dob.month\",\n        \"legal_entity.dob.year\",\n        \"legal_entity.first_name\",\n        \"legal_entity.last_name\",\n        \"legal_entity.ssn_last_4\",\n        \"legal_entity.type\",\n        \"tos_acceptance.date\",\n        \"tos_acceptance.ip\"\n      ],\n      \"additional\": [\n        \"legal_entity.personal_id_number\",\n        \"legal_entity.verification.document\"\n      ]\n    }\n  }\n}\n",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Fri, 10 Mar 2017 10:44:19 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "3178",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Methods": "GET, POST, HEAD, OPTIONS, DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Max-Age": "300",
+        "Cache-Control": "no-cache, no-store",
+        "Request-Id": "req_AGHnE1xezLfXCd",
+        "Stripe-Version": "2017-02-14",
+        "Strict-Transport-Security": "max-age=31556926; includeSubDomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
